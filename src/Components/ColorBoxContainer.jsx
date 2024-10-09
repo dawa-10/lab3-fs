@@ -6,7 +6,7 @@ export default function ColorBoxesContainer() {
   const boxes = [];
 
  
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 5; i++) {
     const randomIndex = Math.floor(Math.random() * colors.length);
     const randomColor = colors[randomIndex];
     
@@ -19,8 +19,8 @@ export default function ColorBoxesContainer() {
 
 
   return (
-    <div
-      style={{display:"flex", flexWrap:"wrap", width:"250px"}}
+    <div style={{display:"flex", flexWrap:"wrap", width:"250px"}}
+     
     >
       {boxes} 
     </div>

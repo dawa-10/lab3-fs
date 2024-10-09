@@ -8,6 +8,10 @@ function App() {
   return (
     <>
       <ColorBoxContainer />
+      <ColorBoxContainer />
+      <ColorBoxContainer />
+      <ColorBoxContainer />
+      <ColorBoxContainer />
     </>
   )
 }
